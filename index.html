@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar System Animation</title>
+    <style>
+        body {
+            margin: 0;
+            background: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .solar-system {
+            position: relative;
+            width: 500px;
+            height: 500px;
+        }
+
+        .sun {
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            background: radial-gradient(circle, #fdb813, #e64a19);
+            border-radius: 50%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            box-shadow: 0 0 30px 10px #fdb813;
+        }
+
+        .orbit {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border: 2px dashed rgba(255, 255, 255, 0.2);
+            border-radius: 200%;
+            top: 10;
+            left: 10;
+        }
+
+        .planet {
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            background: radial-gradient(circle, #4caf50, #1b5e20);
+            border-radius: 50%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) translateX(200px);
+            animation: orbit 10s linear infinite;
+        }
+
+        .planet:nth-child(2) {
+            background: radial-gradient(circle, #2196f3, #0d47a1);
+            transform: translate(-50%, -50%) translateX(100px);
+            animation: orbit 7s linear infinite;
+            orbit: 
+        }
+
+        .planet:nth-child(3) {
+            background: radial-gradient(circle, #ff9800, #e65100);
+            transform: translate(-50%, -50%) translateX(100px);
+            animation: orbit 22s linear infinite;
+        }
+        .planet:nth-child(4) {
+            background: radial-gradient(circle, blue, pink);
+            transform: translate(-50%, -50%) translateX(100px);
+            animation: orbit 4s linear infinite;
+        }
+
+        @keyframes orbit {
+            from {
+                transform: rotate(0deg) translateX(200px) rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg) translateX(200px) rotate(-360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="solar-system">
+        <div class="sun"></div>
+        <div class="orbit">
+            <div class="planet"></div>
+            <div class="planet"></div>
+            <div class="planet"></div>
+            <div class="planet"></div>
+        </div>
+    </div>
+</body>
+</html>
