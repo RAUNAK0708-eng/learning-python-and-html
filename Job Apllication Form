@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+<!-- 
+        <table border="1">
+
+            <thead>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Male category</th>
+                <th>Talont</th>
+                <th>Weakness</th>
+
+               </thead>
+
+               <tbody>
+                <tr>
+                    <td>Raunak</td>
+                    <td>Male</td>
+                    <td>Alpha</td>
+                    <td>Cricket and Football</td>
+                    <td>Girls</td>
+
+                </tr>
+
+                <tr>
+                    <td>Soumyadip</td>
+                    <td>Transgender</td>
+                    <td>NO</td>
+                    <td>Clapping</td>
+                    <td>Can't reproduce</td>
+                </tr>
+
+                <tr>
+                    <td>Abhrak</td>
+                    <td>Male</td>
+                    <td>Alpha</td>
+                    <td>Football</td>
+                    <td>Real Madrid 15ucl</td>
+                </tr>
+
+                <tr>
+                    <td>Sahil</td>
+                    <td>Male</td>
+                    <td>Sigma</td>
+                    <td>Bodybuilding </td>
+                    <td>None</td>
+                </tr>
+
+                
+                <tr>
+                    <td>Ousnik</td>
+                    <td>Male</td>
+                    <td>Sigma</td>
+                    <td>Study</td>
+                    <td>None</td>
+                </tr>
+
+                <tr>
+                    <td>Romit</td>
+                    <td>Male</td>
+                    <td>Alpha</td>
+                    <td>Gaming</td>
+                    <td>Girls</td>
+                </tr> -->
+
+
+
+
+
+                <form>
+                    <h1>Job Apllication Form</h1>
+
+                    <fieldset>
+                        <legend>Personal Information</legend>
+            
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name">
+                        <br>
+                        <br>
+            
+                        <label for="emailID">Email ID:</label>
+                        <input type="email" id="emailID" name="emailID">
+                        <br>
+                        <br>
+            
+                        <label for="phoneNumber">Phone No:</label>
+                        <input type="tel" id="phoneNumber" name="phoneNumber">
+                        <br>
+                        <br>
+            
+                        <label for="dateOfBirth">Date of Birth:</label>
+                        <input type="date" name="dateOfBirth" id="dateOfBirth">
+                        <br>
+                        <br>
+                        <span>Gender:</span>
+            
+                       
+                        <input type="radio" name="radio" id="radio1">
+                        <label for="radio1">Male</label>
+            
+            
+                        
+                        <input type="radio" name="radio" id="radio2">
+                        <label for="radio2">Female</label>
+
+                        <input type="radio" name="radio" id="radio3">
+                        <label for="radio3">Other</label>
+                        <br>
+                        <br>
+            
+                        <label for="country">Country:</label>
+                        <select name="country" id="country">
+                            <option value="india">India</option>
+                            <option value="us">United States</option>
+                        </select>
+            
+            
+                    </fieldset>
+            
+                    <fieldset>
+                        <legend>Address</legend>
+            
+                        <label for="street">Street:</label>
+                        <input type="text" name="street" id="street">
+                        <br>
+                        <br>
+            
+                        <label for="city">City:</label>
+                        <input type="text" name="city" id="city">
+                        <br>
+                        <br>
+            
+                        <label for="state">State:</label>
+                        <input type="text" name="state" id="state">
+                        <br>
+                        <br>
+            
+                        <label for="code">Zip Code:</label>
+                        <input type="text" name="code" id="code">
+                        <br>
+                        <br>
+            
+                    </fieldset>
+
+                   
+                        <legend>Skills</legend>
+                        <select name="Skills" id="Choose Skills">
+                            <option value="">Choose skills</option>
+                            <option value="">Web Developer</option>
+                            <option value="">Mobile App Developer</option>
+                            <option value="">Game Developer</option>
+                            <option value="">Data Scientist </option>
+                            <option value="">Machine Learning Engineer </option>
+                            <option value="">Cloud Engineer </option>
+                            <option value="">Cybersecurity Engineer </option>
+                            <option value="">Network Engineer </option>
+                            <option value="">UI/UX Designer </option>
+                            <option value="">Product Manager </option>
+                            <option value="">Graphic Designer </option>
+                        
+                    
+                        </select>
+                        
+                        <br>
+                        <br>
+
+
+                    
+
+
+
+                    
+            
+                    <fieldset>
+                        <legend>Other Information</legend>
+            
+                        <label for="textarea1">Comments:</label>
+                        <br>
+                        <textarea name="textarea1" id="textarea1" cols="30" rows="10"></textarea>
+            
+                        <label for="terms">I agree to the terms of service:</label>
+                        <input type="checkbox" name="terms" id="terms">
+            
+                    </fieldset>
+            
+                    <input type="submit" value="Submit">
+            
+            
+                </form>
+                    
+                    
+
+
+
+
+
+
+                </form>
+                
+                
+                
+                
+                
+
+
+
+        
+
+
+
+
+
+
+
+
+                
+               </tbody>
+
+
+
+
+
+
+
+        </table>
+        
+           
+
+
+
+
+    
+
+
+
+
+
+
+        
+
+
+    
+</body>
+</html>
+
